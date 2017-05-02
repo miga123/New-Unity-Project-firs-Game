@@ -39,7 +39,7 @@ public class playermover : MonoBehaviour
 
      void FixedUpdate()
     {
-        playerBody.position = playerBody.position + deltaPos;
+        //playerBody.position = playerBody.position + deltaPos;
         playerBody.AddForce(deltaPos * SpeedMultuplayer);
     }
 
